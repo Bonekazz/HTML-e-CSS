@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: 'Mani';
+    src: url('fontes/Manilla\ Queen.otf') format('opentype')
+}
+
+body {
+    background-image: linear-gradient(140deg, #0FC2C0, #0CABA8,#017c7a, #015552);
+    background-attachment: fixed;
+    margin: 0px;
+}
+main {
+    background-color: white;
+    max-width: 800px;
+    min-width: 80px;
+    border-radius: 14px;
+    box-shadow: 3px 3px 16px #01403ec6;
+    padding: 45px;
+    margin: auto;
+}
+p {
+    text-align: justify;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+h2 {
+    font-family: 'Mani', serif;
+}
+#cabeçalho {
+    background-color: white;
+    padding: 45px;
+    margin-bottom: 20px;
+}
+#cabeçalho > h1 {
+    font-size: 3em;
+    margin-bottom: 8px;
+}
+#menu {
+    text-align: center;
+    padding-bottom: 10px;
+}
+#rodape {
+    background-color: black;
+    padding: 20px;
+    margin-top: 402px;
+}
+#rodape > p {
+    text-align: center;
+    color: rgb(189, 189, 189);
+}
+.artigo > article > p{
+    background-color: rgb(232, 230, 230);
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+#menu > a{
+    text-decoration: none;
+    color: grey;
+}
+#menu > a:hover {
+    background-color: grey;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+
+}
